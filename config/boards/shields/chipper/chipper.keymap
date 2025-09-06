@@ -64,7 +64,7 @@
                 compatible = "zmk,keymap";
 
                 DEF_layer {
-                        display-name = "Base";
+                        display-name = "Base - SEMICOLON Fixed";
                         bindings = <
             //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
 &bht LS(LC(LALT)) ESC  &bht LS(LC(LALT)) Q   &kp W    &kp E         &kp R         &kp T             &kp Y         &kp U         &bht PIPE I   &kp O         &lt FN P      &kp DEL
