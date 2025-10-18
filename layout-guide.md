@@ -8,17 +8,18 @@ Este guia visual mostra todas as camadas do teclado para facilitar o aprendizado
 ┌─────┬─────┬─────┬─────┬─────┬─────┐   ┌─────┬─────┬─────┬─────┬─────┬─────┐
 │ ESC │  Q  │  W  │  E  │  R  │  T  │   │  Y  │  U  │  I  │  O  │  P  │ DEL │
 ├─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┤
-│ TAB │  A  │  S  │  D  │  F  │  G  │   │  H  │  J  │  K  │  L  │Enter│Enter│
+│ TAB │  A  │  S  │  D  │  F  │  G  │   │  H  │  J  │  K  │  L  │  ;  │Enter│
 ├─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┤
-│Bspc │  Z  │  X  │  C  │  V  │  B  │   │  N  │  M  │  ,  │  .  │  ?  │RAlt │
+│Ctrl │  Z  │  X  │  C  │  V  │  B  │   │  N  │  M  │  ,  │  .  │  ?  │RAlt │
 └─────┴─────┴─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┴─────┴─────┘
-                  │Shift│ GUI │Space│   │Space│Bspc │Multi│
+                  │Shift│ GUI │Space│   │Space│Bspc │Enter│
                   └─────┴─────┴─────┘   └─────┴─────┴─────┘
 ```
 
 ### Teclas Especiais Layer Base:
+- **Ctrl (canto inferior esquerdo)**: TAP = CONTROL | HOLD = COMMAND/GUI
 - **Space (esquerdo)**: Hold = NAV layer
-- **Space (direito)**: Hold = NUM layer  
+- **Space (direito)**: Hold = NUM layer
 - **P**: Hold = FN layer
 - **Z**: Hold = FN layer
 - **I**: Hold = | (pipe)
@@ -78,9 +79,9 @@ Este guia visual mostra todas as camadas do teclado para facilitar o aprendizado
 ┌─────┬─────┬─────┬─────┬─────┬─────┐   ┌─────┬─────┬─────┬─────┬─────┬─────┐
 │     │ "?  │  <  │  $  │  >  │  \  │   │ !=  │ +7  │ -8  │ _9  │Cmd+P│     │
 ├─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┤
-│     │  @  │  (  │  &  │  )  │  `  │   │ .#  │ *4  │ /5  │ \6  │  {  │     │
+│     │  @  │  (  │  {  │  )  │  `  │   │ .#  │ *4  │ /5  │ \6  │     │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┤
-│     │  ~  │  [  │  ^  │  ]  │     │   │ %0  │ |1  │ &2  │ #3  │  }  │     │
+│     │  ~  │  [  │  }  │  ]  │     │   │ %0  │ |1  │ &2  │ #3  │     │     │
 └─────┴─────┴─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┴─────┴─────┘
                   │     │     │     │   │     │ DEL │     │
                   └─────┴─────┴─────┘   └─────┴─────┴─────┘
@@ -130,10 +131,12 @@ Este guia visual mostra todas as camadas do teclado para facilitar o aprendizado
 5. **SYS só quando necessário** - Bluetooth e updates
 
 ### Teclas-chave para lembrar:
+- **Canto inferior esquerdo** = CONTROL (tap) / COMMAND (hold)
 - **SPACE esquerdo** = Navegação
-- **SPACE direito** = Números  
+- **SPACE direito** = Números
 - **P ou Z** = Funções F
 - **SPACE+P/Z** = Sistema/Bluetooth
+- **Backspace** = Thumb direito (removido do canto esquerdo)
 
 ### Sequências importantes:
 - **Bootloader**: SPACE esquerdo + Z + F

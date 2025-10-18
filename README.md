@@ -30,6 +30,7 @@ The Chipper keyboard is a compact split mechanical keyboard featuring:
 
 ### Advanced Features
 - **Hold-tap behaviors**: Most keys have dual functions
+  - **Ctrl/Cmd key**: Bottom left corner - TAP for CONTROL, HOLD for COMMAND
 - **Conditional layers**: NAV + FN automatically activates SYS
 - **Bluetooth multi-device**: Support for up to 4 paired devices
 - **Combo keys**: Special key combinations for shortcuts
@@ -79,11 +80,11 @@ The Chipper keyboard is a compact split mechanical keyboard featuring:
 ┌─────┬─────┬─────┬─────┬─────┬─────┐   ┌─────┬─────┬─────┬─────┬─────┬─────┐
 │ ESC │  Q  │  W  │  E  │  R  │  T  │   │  Y  │  U  │  I  │  O  │  P  │ DEL │
 ├─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┤
-│ TAB │  A  │  S  │  D  │  F  │  G  │   │  H  │  J  │  K  │  L  │Enter│Enter│
+│ TAB │  A  │  S  │  D  │  F  │  G  │   │  H  │  J  │  K  │  L  │  ;  │Enter│
 ├─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┤
-│Bspc │  Z  │  X  │  C  │  V  │  B  │   │  N  │  M  │  ,  │  .  │  ?  │RAlt │
+│Ctrl │  Z  │  X  │  C  │  V  │  B  │   │  N  │  M  │  ,  │  .  │  ?  │RAlt │
 └─────┴─────┴─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┴─────┴─────┘
-                  │Shift│ GUI │Space│   │Space│Bspc │Multi│
+                  │Shift│ GUI │Space│   │Space│Bspc │Enter│
                   └─────┴─────┴─────┘   └─────┴─────┴─────┘
                             NAV         NUM
 ```

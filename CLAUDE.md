@@ -76,6 +76,13 @@ xiaoBle/
 - Combo timeout set to 60ms via `COMBO_TIMEOUT`
 - Use `___` for transparent keys and `XXX` for disabled keys
 
+### Special Modifier Keys
+**Left Bottom Corner (next to Z):**
+- TAP (<280ms): CONTROL
+- HOLD (>280ms): COMMAND/GUI
+- Configuration: `&bht LGUI LCTRL`
+- Note: BACKSPACE removed from this position, available on right thumb cluster
+
 ### Hardware Customization
 - GPIO assignments in `chipper.dtsi` row-gpios section
 - I2C pins configured for SDA (GPIO 4) and SCL (GPIO 5)

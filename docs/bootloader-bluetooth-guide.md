@@ -129,3 +129,15 @@ conditional_layers {
 - **Firmware**: ZMK (Zephyr Mechanical Keyboard)
 - **Shield**: Custom "Chipper" (36-key split)
 - **Layout**: 3x6 + 3 thumb keys por lado
+
+## 🔄 Atualizações Recentes (18/01/2025)
+
+### Modificação no Layout Base:
+- **Tecla canto inferior esquerdo** (ao lado do Z):
+  - **TAP rápido** (<280ms): CONTROL
+  - **HOLD** (>280ms): COMMAND/GUI
+  - **Antes**: Era BACKSPACE
+  - **Justificativa**: BACKSPACE já disponível no thumb direito
+  - **Benefício**: Acesso rápido aos dois modificadores principais
+
+Para mais detalhes sobre o layout completo, consulte `keyboard-complete-reference.md`

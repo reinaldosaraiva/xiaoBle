@@ -5,8 +5,13 @@
 Lado Esquerdo:                          Lado Direito:
 [0] ESC  [1] Q  [2] W  [3] E  [4] R  [5] T  |  [6] Y  [7] U  [8] I  [9] O  [10] P  [11] DEL
 [0] TAB  [1] A  [2] S  [3] D  [4] F  [5] G  |  [6] H  [7] J  [8] K  [9] L  [10] ;  [11] Enter
-[0] Bspc [1] Z  [2] X  [3] C  [4] V  [5] B  |  [6] N  [7] M  [8] ,  [9] .  [10] ?  [11] RAlt
-                    [3]Shift [4]GUI [5]Space |  [6]Space [7]Bspc [8]Multi
+[0] Ctrl [1] Z  [2] X  [3] C  [4] V  [5] B  |  [6] N  [7] M  [8] ,  [9] .  [10] ?  [11] RAlt
+                    [3]Shift [4]GUI [5]Space |  [6]Space [7]Bspc [8]Enter
+
+Modificador Especial [0] da linha 3:
+- TAP (<280ms): CONTROL
+- HOLD (>280ms): COMMAND/GUI
+- Configuração: &bht LGUI LCTRL
 ```
 
 ## NUM Layer - Mapeamento no código (linha 117-121)
@@ -33,8 +38,19 @@ MAS se aparecer &, está pegando:
 ## ISSO SIGNIFICA:
 O teclado está interpretando a tecla ; como posição [3] ao invés de [10]!
 
-## Possível causa: 
+## Possível causa:
 - Transform matrix invertida no lado direito
 - Ou teclado de 5 colunas ao invés de 6
 
 Vamos verificar se está usando five_column_transform!
+
+---
+
+## ATUALIZAÇÃO (2025-01-18):
+
+### Mudança no Canto Inferior Esquerdo
+**Posição [0] linha 3 (ao lado do Z):**
+- **ANTES**: TAP = BACKSPACE, HOLD = COMMAND
+- **AGORA**: TAP = CONTROL, HOLD = COMMAND
+- **Justificativa**: Teclado já possui BACKSPACE no thumb direito [7]
+- **Benefício**: Acesso rápido a ambos modificadores principais (Ctrl e Cmd)

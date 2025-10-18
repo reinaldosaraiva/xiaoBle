@@ -71,7 +71,7 @@
             //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼──────|──────┼─────────────┼─────────────┤ ├──────┤
 &bht LS(LC(LA(LGUI))) TAB   &bht LG(A) A     &kp S    &kp D      &bht LG(F) F     &kp G            &bht HASH H    &kp J         &kp K         &kp L         &kp SEMICOLON &kp RET
             //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├──────#──────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-&bht LCTRL BSPC    &lt FN Z    &bht LG(X) X   &bht LG(C) C   &bht LG(V) V  &bht LS(LC(LA(V))) B     &kp N         &kp M       &bht SEMI COMMA &bht COLON DOT &bht SQT QMARK  &kp RALT
+&bht LGUI LCTRL    &lt FN Z    &bht LG(X) X   &bht LG(C) C   &bht LG(V) V  &bht LS(LC(LA(V))) B     &kp N         &kp M       &bht SEMI COMMA &bht COLON DOT &bht SQT QMARK  &kp RALT
             //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
                                                     &kp LSHFT      &sk LGUI      &lt NAV SPC       &lt NUM SPC    &kp BSPC    &kp RET
              //                                    ╰────────────┼──────────────┴─────────────╯   ╰─────────────┴─────────────┼─────────────╯
